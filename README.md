@@ -23,7 +23,8 @@ yum install -y xz openssl gawk file
 
 二、下载脚本
 
-wget --no-check-certificate https://zhujiwiki.com/wp-content/uploads/2018/04/InstallNET.sh
+wget -N --no-check-certificate "https://raw.githubusercontent.com/forevergooe/dd/master/InstallNET.sh"
+
 chmod -x InstallNET.sh
 
 
