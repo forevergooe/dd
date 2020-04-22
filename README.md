@@ -4,15 +4,21 @@ Linux下网络安装Debian/Ubuntu/CentOS/Windows纯净版一键脚本
 默认root密码为 MoeClub.org
 
 一、安装软件
+
 Debian/Ubuntu:
+
 apt-get update
+
 apt-get install -y xz-utils openssl gawk file
 
 RedHat/CentOS:
+
 yum update
+
 yum install -y xz openssl gawk file
 
 二、下载脚本
+
 wget --no-check-certificate https://zhujiwiki.com/wp-content/uploads/2018/04/InstallNET.sh
 chmod -x InstallNET.sh
 
