@@ -19,6 +19,7 @@ chmod -x InstallNET.sh
 三、安装系统
 （一）安装Debian各版本
 1、安装Debian 7 x32
+
 bash InstallNET.sh -d 7 -v 32 -a
 
 2、安装Debian 7 x64
