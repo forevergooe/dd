@@ -1,7 +1,9 @@
-# dd
 Linux下网络安装Debian/Ubuntu/CentOS/Windows纯净版一键脚本
+
 仅适用于KVM，不适合OpenVZ。
+
 默认root密码为 MoeClub.org
+
 
 一、安装软件
 
@@ -11,16 +13,19 @@ apt-get update
 
 apt-get install -y xz-utils openssl gawk file
 
+
 RedHat/CentOS:
 
 yum update
 
 yum install -y xz openssl gawk file
 
+
 二、下载脚本
 
 wget --no-check-certificate https://zhujiwiki.com/wp-content/uploads/2018/04/InstallNET.sh
 chmod -x InstallNET.sh
+
 
 三、安装系统
 
@@ -30,24 +35,31 @@ chmod -x InstallNET.sh
 
 bash InstallNET.sh -d 7 -v 32 -a
 
+
 2、安装Debian 7 x64
 
 bash InstallNET.sh -d 7 -v 64 -a
+
 
 3、安装Debian 8 x32
 
 bash InstallNET.sh -d 8 -v 32 -a
 
+
 4、安装Debian 8 x64
+
 bash InstallNET.sh -d 8 -v 64 -a
+
 
 5、安装Debian 9 x32
 
 bash InstallNET.sh -d 9 -v 32 -a
 
+
 6、安装Debian 9 x64
 
 bash InstallNET.sh -d 9 -v 64 -a
+
 
 （二）安装Ubuntu各版本
 
@@ -55,25 +67,31 @@ bash InstallNET.sh -d 9 -v 64 -a
 
 bash InstallNET.sh -u trusty -v 32 -a
 
+
 2、安装Ubuntu 14.04 x64
 
 bash InstallNET.sh -u trusty -v 64 -a
+
 
 3、安装Ubuntu 16.04 x32
 
 bash InstallNET.sh -u xenial -v 32 -a
 
+
 4、安装Ubuntu 16.04 x64
 
 bash InstallNET.sh -u xenial -v 64 -a
+
 
 5、安装Ubuntu 17.04 x32
 
 bash InstallNET.sh -u zesty -v 32 -a
 
+
 6、安装Ubuntu 17.04 x64
 
 bash InstallNET.sh -u zesty -v 64 -a
+
 
 （三）安装CentOS各版本
 
@@ -81,17 +99,21 @@ bash InstallNET.sh -u zesty -v 64 -a
 
 bash InstallNET.sh -c 6.8 -v 32 -a --mirror 'http://vault.centos.org'
 
+
 2、安装CentOS 6.8 64位
 
 bash InstallNET.sh -c 6.8 -v 64 -a --mirror 'http://vault.centos.org'
+
 
 3、安装CentOS 6.9 32位
 
 bash InstallNET.sh -c 6.9 -v 32 -a --mirror 'http://vault.centos.org'
 
+
 4、安装CentOS 6.9 64位
 
 bash InstallNET.sh -c 6.9 -v 64 -a --mirror 'http://vault.centos.org'
+
 
 （四）安装Windows Server2012 R2 data center
 
