@@ -17,12 +17,15 @@ wget --no-check-certificate https://zhujiwiki.com/wp-content/uploads/2018/04/Ins
 chmod -x InstallNET.sh
 
 三、安装系统
+
 （一）安装Debian各版本
+
 1、安装Debian 7 x32
 
 bash InstallNET.sh -d 7 -v 32 -a
 
 2、安装Debian 7 x64
+
 bash InstallNET.sh -d 7 -v 64 -a
 
 3、安装Debian 8 x32
