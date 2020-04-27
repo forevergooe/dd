@@ -39,11 +39,18 @@ bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/forev
 bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/forevergooe/dd/master/InstallNET.sh') -c 6.9 -v 64 -a
 
 
+★综合脚本
+
+默认root密码为 MoeClub.org
+
+wget -N --no-check-certificate "https://raw.githubusercontent.com/forevergooe/dd/master/AutoReinstall.sh" && chmod a+x AutoReinstall.sh && bash AutoReinstall.sh
+
+
 ★cxthhhhh [魔改版]一键网络重装系统
 
-wget -N --no-check-certificate "https://raw.githubusercontent.com/forevergooe/dd/master/Network-Reinstall-System-Modify.sh" && chmod a+x Network-Reinstall-System-Modify.sh && ./Network-Reinstall-System-Modify.sh
+默认密码是 MoeClub.org
 
-默认密码是 cxthhhhh.com
+wget -N --no-check-certificate "https://raw.githubusercontent.com/forevergooe/dd/master/Network-Reinstall-System-Modify.sh" && chmod a+x Network-Reinstall-System-Modify.sh && ./Network-Reinstall-System-Modify.sh
 
 
 1、Debian 9 64位
@@ -63,12 +70,12 @@ bash Network-Reinstall-System-Modify.sh -CentOS_7
 ★CentOS 7 64位安装
 
 
-1、dansnow              CentOS 7的root密码为 forevergooe
+1、dansnow              CentOS 7的root密码为 MoeClub.org
 
 wget --no-check-certificate -qO AutoDD.sh 'https://raw.githubusercontent.com/forevergooe/dd/master/autodd.sh' && bash AutoDD.sh
 
 
-2、cxthhhhh.com      CentOS 7的root密码 forevergooe
+2、cxthhhhh.com      CentOS 7的root密码 MoeClub.org
 
 wget --no-check-certificate -qO AutoDDT.sh 'https://raw.githubusercontent.com/forevergooe/dd/autoddt.sh' && bash AutoDDT.sh
 
@@ -90,5 +97,8 @@ http://ftp.us.debian.org/debian/
 http://ftp.jp.debian.org/debian/
 
 http://ftp.ru.debian.org/debian/
+
+http://mirrors.tuna.tsinghua.edu.cn/centos-vault/
+
 
 
