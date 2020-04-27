@@ -2,7 +2,7 @@
 
 ## License: GPL
 ## It can reinstall Debian, Ubuntu, CentOS system with network.
-## Default root password: MoeClub.org
+## Default root password: forevergooe
 ## Blog: https://moeclub.org
 ## Written By MoeClub.org
 
