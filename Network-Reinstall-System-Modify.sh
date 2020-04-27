@@ -31,7 +31,7 @@ then
 	echo -e "\033[33m You have chosen to install the latest CentOS_8 \033[0m"
 	echo -e "\n"
 	sleep 2s
-	wget --no-check-certificate -qO Core_Install.sh 'https://raw.githubusercontent.com/forevergooe/dd/master/Core_Install.sh' && bash Core_Install.sh -dd 'http://las.mikcool.site/files/dd/centos/CentOS_8.X_NetInstallation.vhd.gz'
+	wget --no-check-certificate -qO Core_Install.sh 'https://raw.githubusercontent.com/forevergooe/dd/master/Core_Install.sh' && bash Core_Install.sh -dd 'https://las.mikcool.site/files/dd/centos/CentOS_8.X_NetInstallation.vhd.gz'
 fi
 
 if [ $1 = '-CentOS_7' ]
@@ -39,7 +39,7 @@ then
 	echo -e "\033[33m You have chosen to install the latest CentOS_7 \033[0m"
 	echo -e "\n"
 	sleep 2s
-	wget --no-check-certificate -qO Core_Install.sh 'https://raw.githubusercontent.com/forevergooe/dd/master/Core_Install.sh' && bash Core_Install.sh -dd 'http://las.mikcool.site/files/dd/centos/CentOS_7.X_NetInstallation.vhd.gz'
+	wget --no-check-certificate -qO Core_Install.sh 'https://raw.githubusercontent.com/forevergooe/dd/master/Core_Install.sh' && bash Core_Install.sh -dd 'https://las.mikcool.site/files/dd/centos/CentOS_7.X_NetInstallation.vhd.gz'
 fi
 
 if [ $1 = '-CentOS_6' ]
