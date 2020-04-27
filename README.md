@@ -39,13 +39,6 @@ bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/forev
 bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/forevergooe/dd/master/InstallNET.sh') -c 6.9 -v 64 -a
 
 
-★综合脚本
-
-默认root密码为 MoeClub.org
-
-wget -N --no-check-certificate "https://raw.githubusercontent.com/forevergooe/dd/master/AutoReinstall.sh" && chmod a+x AutoReinstall.sh && bash AutoReinstall.sh
-
-
 ★cxthhhhh [魔改版]一键网络重装系统
 
 默认密码是 MoeClub.org
@@ -64,6 +57,14 @@ bash Network-Reinstall-System-Modify.sh -CentOS_6
 3、CentOS 7 64位：
 
 bash Network-Reinstall-System-Modify.sh -CentOS_7
+
+
+
+★综合脚本
+
+默认root密码为 MoeClub.org
+
+wget -N --no-check-certificate "https://raw.githubusercontent.com/forevergooe/dd/master/AutoReinstall.sh" && chmod a+x AutoReinstall.sh && bash AutoReinstall.sh
 
 
 
