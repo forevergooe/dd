@@ -41,7 +41,7 @@ bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/forev
 
 ★cxthhhhh [魔改版]一键网络重装系统
 
-默认密码是 MoeClub.org
+默认密码是 cxthhhhh.com
 
 wget -N --no-check-certificate "https://raw.githubusercontent.com/forevergooe/dd/master/Network-Reinstall-System-Modify.sh" && chmod a+x Network-Reinstall-System-Modify.sh
 
