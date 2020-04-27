@@ -68,7 +68,7 @@ bash Network-Reinstall-System-Modify.sh -CentOS_7
 wget --no-check-certificate -qO AutoDD.sh 'https://raw.githubusercontent.com/forevergooe/dd/master/autodd.sh' && bash AutoDD.sh
 
 
-2、cxthhhhh.com      CentOS 7的root密码 cxthhhhh.com
+2、cxthhhhh.com      CentOS 7的root密码 forevergooe
 
 wget --no-check-certificate -qO AutoDDT.sh 'https://raw.githubusercontent.com/forevergooe/dd/autoddt.sh' && bash AutoDDT.sh
 
