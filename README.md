@@ -28,12 +28,12 @@ yum -y install wget
 
 默认root密码为 MoeClub.org
 
-# Debian 9 64位：
+Debian 9 64位：
 
 bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/forevergooe/dd/master/InstallNET.sh') -d 9 -v 64 -a
 
 
-# CentOS 6.9 64位：
+CentOS 6.9 64位：
 
 bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/forevergooe/dd/master/InstallNET.sh') -c 6.9 -v 64 -a
 
@@ -45,17 +45,17 @@ wget -N --no-check-certificate "https://raw.githubusercontent.com/forevergooe/dd
 默认密码是 cxthhhhh.com
 
 
-# Debian 9 64位
+Debian 9 64位
 
 bash Network-Reinstall-System-Modify.sh -Debian_9
 
 
-# CentOS 6.9 64位：
+CentOS 6.9 64位：
 
 bash Network-Reinstall-System-Modify.sh -CentOS_6
 
 
-# CentOS 7 64位：
+CentOS 7 64位：
 
 bash Network-Reinstall-System-Modify.sh -CentOS_7
 
@@ -63,12 +63,12 @@ bash Network-Reinstall-System-Modify.sh -CentOS_7
 
 ★CentOS 7 64位安装
 
-# dansnow              CentOS 7的root密码为 forevergooe
+dansnow              CentOS 7的root密码为 forevergooe
 
 wget --no-check-certificate -qO AutoDD.sh 'https://raw.githubusercontent.com/forevergooe/dd/master/autodd.sh' && bash AutoDD.sh
 
 
-# cxthhhhh.com      CentOS 7的root密码 cxthhhhh.com
+cxthhhhh.com      CentOS 7的root密码 cxthhhhh.com
 
 wget --no-check-certificate -qO AutoDDT.sh 'https://raw.githubusercontent.com/forevergooe/dd/autoddt.sh' && bash AutoDDT.sh
 
