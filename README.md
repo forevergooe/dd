@@ -50,7 +50,7 @@ wget -N --no-check-certificate "https://raw.githubusercontent.com/forevergooe/dd
 
 默认密码是 MoeClub.org
 
-wget -N --no-check-certificate "https://raw.githubusercontent.com/forevergooe/dd/master/Network-Reinstall-System-Modify.sh" && chmod a+x Network-Reinstall-System-Modify.sh && ./Network-Reinstall-System-Modify.sh
+wget -N --no-check-certificate "https://raw.githubusercontent.com/forevergooe/dd/master/Network-Reinstall-System-Modify.sh" && chmod a+x Network-Reinstall-System-Modify.sh
 
 
 1、Debian 9 64位
