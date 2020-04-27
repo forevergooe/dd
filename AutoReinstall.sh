@@ -197,7 +197,7 @@ function Start() {
     3) echo -e "\nPassword: MoeClub.org\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd 'http://las.mikcool.site/files/dd/centos/CentOS_7.X_NetInstallation.vhd.gz' $DMIRROR ;;
     4) echo -e "\nPassword: MoeClub.org\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -c 6.10 -v 64 -a $NETSTR $CMIRROR ;;
     5) echo -e "\nPassword: MoeClub.org\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -d 10 -v 64 -a $NETSTR $DMIRROR ;;
-    6) echo -e "\nPassword: MoeClub.org\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -d 9 -v 64 -a $NETSTR $DMIRROR ;;
+    6) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -d 9 -v 64 -a $NETSTR $DMIRROR ;;
     7) echo -e "\nPassword: MoeClub.org\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -d 8 -v 64 -a $NETSTR $DMIRROR ;;
     8) echo -e "\nPassword: MoeClub.org\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -d 7 -v 64 -a $NETSTR $DMIRROR ;;
     9) echo -e "\nPassword: MoeClub.org\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -u 18.04 -v 64 -a $NETSTR $UMIRROR ;;
