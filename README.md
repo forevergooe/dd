@@ -62,7 +62,6 @@ bash Network-Reinstall-System-Modify.sh -CentOS_7
 
 ★综合脚本
 
-默认root密码为 MoeClub.org
 
 wget -N --no-check-certificate "https://raw.githubusercontent.com/forevergooe/dd/master/AutoReinstall.sh" && chmod a+x AutoReinstall.sh && bash AutoReinstall.sh
 
