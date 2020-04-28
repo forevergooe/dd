@@ -36,7 +36,7 @@ echo ""
 echo -n "Your option: "
 read N
 case $N in
-  1) echo "Password: MoeClub.org" ; read -s -n1 -p "Press any key to continue..." ; bash InstallNET.sh --ip-addr $MAINIP --ip-gate $GATEWAYIP --ip-mask $NETMASK -dd 'https://www.mikcool.site/files/dd/centos/CentOS_7.X_NetInstallation.vhd.gz' ;;
+  1) echo "Password: cxthhhhh.com" ; read -s -n1 -p "Press any key to continue..." ; bash InstallNET.sh --ip-addr $MAINIP --ip-gate $GATEWAYIP --ip-mask $NETMASK -dd 'https://www.mikcool.site/files/dd/centos/CentOS_7.X_NetInstallation.vhd.gz' ;;
   2) bash InstallNET.sh -c 6.9 -v 64 -a --mirror 'http://mirrors.tuna.tsinghua.edu.cn/centos-vault' --ip-addr $MAINIP --ip-gate $GATEWAYIP --ip-mask $SUBNET ;;
   3) bash InstallNET.sh -c 6.9 -v 64 -a --ip-addr $MAINIP --ip-gate $GATEWAYIP --ip-mask $NETMASK ;;
   4) bash InstallNET.sh -d 9 -v 64 -a --ip-addr $MAINIP --ip-gate $GATEWAYIP --ip-mask $NETMASK ;;
