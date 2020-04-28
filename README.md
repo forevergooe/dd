@@ -70,12 +70,12 @@ wget -N --no-check-certificate "https://raw.githubusercontent.com/forevergooe/dd
 ★CentOS 7 64位安装
 
 
-1、dansnow              CentOS 7的root密码为 MoeClub.org
+1、dansnow              CentOS 7的root密码为 Pwd@CentOS
 
 wget --no-check-certificate -qO AutoDD.sh 'https://raw.githubusercontent.com/forevergooe/dd/master/autodd.sh' && bash AutoDD.sh
 
 
-2、cxthhhhh.com      CentOS 7的root密码 MoeClub.org
+2、cxthhhhh.com      CentOS 7的root密码 cxthhhhh.com
 
 wget --no-check-certificate -qO AutoDDT.sh 'https://raw.githubusercontent.com/forevergooe/dd/autoddt.sh' && bash AutoDDT.sh
 
