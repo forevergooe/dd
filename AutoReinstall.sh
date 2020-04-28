@@ -192,9 +192,9 @@ function Start() {
   echo -ne "\nYour option: "
   read N
   case $N in
-    1) echo -e "\nPassword: Pwd@CentOS\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd 'http://las.mikcool.site/files/dd/centos/CentOS-7.img.gz' $DMIRROR ;;
-    2) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd 'http://las.mikcool.site/files/dd/centos/CentOS_8.X_NetInstallation.vhd.gz' $DMIRROR ;;
-    3) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd 'http://las.mikcool.site/files/dd/centos/CentOS_7.X_NetInstallation.vhd.gz' $DMIRROR ;;
+    1) echo -e "\nPassword: Pwd@CentOS\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd 'https://las.mikcool.site/files/dd/centos/CentOS-7.img.gz' $DMIRROR ;;
+    2) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd 'https://las.mikcool.site/files/dd/centos/CentOS_8.X_NetInstallation.vhd.gz' $DMIRROR ;;
+    3) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd 'https://las.mikcool.site/files/dd/centos/CentOS_7.X_NetInstallation.vhd.gz' $DMIRROR ;;
     4) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -c 6.10 -v 64 -a $NETSTR $CMIRROR ;;
     5) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -d 10 -v 64 -a $NETSTR $DMIRROR ;;
     6) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -d 9 -v 64 -a $NETSTR $DMIRROR ;;
